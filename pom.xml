@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.renyan.rendb</groupId>
+    <artifactId>rendb</artifactId>
+    <version>0.1-SNAPSHOT</version>
+
+    <name>${project.artifactId}</name>
+    <description>Port of LevelDB to Java</description>
+
+    <packaging>jar</packaging>
+
+    <properties>
+        <leveldb.version>0.6</leveldb.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.iq80.leveldb</groupId>
+            <artifactId>leveldb</artifactId>
+            <version>${leveldb.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.iq80.leveldb</groupId>
+            <artifactId>leveldb-api</artifactId>
+            <version>${leveldb.version}</version>
+        </dependency>
+
+
+    </dependencies>
+
+</project>
