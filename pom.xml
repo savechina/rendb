@@ -8,6 +8,7 @@
     <artifactId>rendb</artifactId>
     <version>0.1-SNAPSHOT</version>
 
+<<<<<<< HEAD
     <packaging>jar</packaging>
 
     <name>${project.artifactId}</name>
@@ -39,6 +40,31 @@
             <version>4.11</version>
             <scope>test</scope>
         </dependency>
+=======
+    <name>${project.artifactId}</name>
+    <description>Port of LevelDB to Java</description>
+
+    <packaging>jar</packaging>
+
+    <properties>
+        <leveldb.version>0.6</leveldb.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.iq80.leveldb</groupId>
+            <artifactId>leveldb</artifactId>
+            <version>${leveldb.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.iq80.leveldb</groupId>
+            <artifactId>leveldb-api</artifactId>
+            <version>${leveldb.version}</version>
+        </dependency>
+
+
+>>>>>>> 0e4ddebd4b258ac0458bd9cf21beed77b82ea72d
     </dependencies>
 
 </project>
